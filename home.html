@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>home</title>
+  <script language='javascript' async='true' type='text/javascript' src='//whatfix.com/83acd8d0-689c-11e8-9a92-1c1b0d767b46/embed/embed.nocache.js'></script>
+</head>
+<body>
+  <button id="togglei">Toggle Image</button>
+  <div id="toggle_img">
+    <img src="image.png" alt="logo">
+  </div>
+  <a href="http://localhost:8083/">BACK</a>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#togglei").click(function(){
+        $("img").toggle();
+    });
+});
+</script>
+</html>
